@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`json-to-ast Common Usage 1`] = `
+{
+  "children": [
+    {
+      "key": {
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 1,
+            "offset": 4,
+          },
+          "source": "data.json",
+          "start": {
+            "column": 2,
+            "line": 1,
+            "offset": 1,
+          },
+        },
+        "raw": ""a"",
+        "type": "Identifier",
+        "value": "a",
+      },
+      "loc": {
+        "end": {
+          "column": 8,
+          "line": 1,
+          "offset": 7,
+        },
+        "source": "data.json",
+        "start": {
+          "column": 2,
+          "line": 1,
+          "offset": 1,
+        },
+      },
+      "type": "Property",
+      "value": {
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1,
+            "offset": 7,
+          },
+          "source": "data.json",
+          "start": {
+            "column": 7,
+            "line": 1,
+            "offset": 6,
+          },
+        },
+        "raw": "1",
+        "type": "Literal",
+        "value": 1,
+      },
+    },
+  ],
+  "loc": {
+    "end": {
+      "column": 9,
+      "line": 1,
+      "offset": 8,
+    },
+    "source": "data.json",
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "Object",
+}
+`;

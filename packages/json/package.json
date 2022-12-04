@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@humanwhocodes/momoa": "^2.0.4",
+    "json-to-ast": "^2.1.0"
+  }
 }

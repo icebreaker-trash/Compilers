@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`momoa Common Usage 1`] = `
+{
+  "body": {
+    "loc": {
+      "end": {
+        "column": 9,
+        "line": 1,
+        "offset": 8,
+      },
+      "start": {
+        "column": 1,
+        "line": 1,
+        "offset": 0,
+      },
+    },
+    "members": [
+      {
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1,
+            "offset": 7,
+          },
+          "start": {
+            "column": 2,
+            "line": 1,
+            "offset": 1,
+          },
+        },
+        "name": {
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 1,
+              "offset": 4,
+            },
+            "start": {
+              "column": 2,
+              "line": 1,
+              "offset": 1,
+            },
+          },
+          "type": "String",
+          "value": "a",
+        },
+        "type": "Member",
+        "value": {
+          "loc": {
+            "end": {
+              "column": 8,
+              "line": 1,
+              "offset": 7,
+            },
+            "start": {
+              "column": 7,
+              "line": 1,
+              "offset": 6,
+            },
+          },
+          "type": "Number",
+          "value": 1,
+        },
+      },
+    ],
+    "type": "Object",
+  },
+  "loc": {
+    "end": {
+      "column": 9,
+      "line": 1,
+      "offset": 8,
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "tokens": [
+    {
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 1,
+          "offset": 1,
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "Punctuator",
+      "value": "{",
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 1,
+          "offset": 4,
+        },
+        "start": {
+          "column": 2,
+          "line": 1,
+          "offset": 1,
+        },
+      },
+      "type": "String",
+      "value": ""a"",
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 1,
+          "offset": 5,
+        },
+        "start": {
+          "column": 5,
+          "line": 1,
+          "offset": 4,
+        },
+      },
+      "type": "Punctuator",
+      "value": ":",
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 8,
+          "line": 1,
+          "offset": 7,
+        },
+        "start": {
+          "column": 7,
+          "line": 1,
+          "offset": 6,
+        },
+      },
+      "type": "Number",
+      "value": "1",
+    },
+    {
+      "loc": {
+        "end": {
+          "column": 9,
+          "line": 1,
+          "offset": 8,
+        },
+        "start": {
+          "column": 8,
+          "line": 1,
+          "offset": 7,
+        },
+      },
+      "type": "Punctuator",
+      "value": "}",
+    },
+  ],
+  "type": "Document",
+}
+`;
